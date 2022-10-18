@@ -1,6 +1,6 @@
 {
   "name": "vite-exclude-dev-imports-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "a vite plugin to remove '?dev' imports",
   "main": "lib/index.js",
   "scripts": {
@@ -19,7 +19,10 @@
     "type": "git",
     "url": "git+https://github.com/SamuelAnjelOrdenes/vite-exclude-dev-imports-plugin.git"
   },
-  "keywords": ["vite", "dev"],
+  "keywords": [
+    "vite",
+    "dev"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
