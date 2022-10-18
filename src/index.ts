@@ -2,9 +2,9 @@ import { Plugin } from 'vite';
 import { init, parse } from 'es-module-lexer';
 import MagicString from 'magic-string';
 
-export default (): Plugin => {
+export const ExcludeDevImportsPlugin = (): Plugin => {
   return {
-    name: 'exclude-css-plugin',
+    name: 'vite-exclude-dev-imports-plugin',
     enforce: 'post',
     async transform(code: string) {
       try {
