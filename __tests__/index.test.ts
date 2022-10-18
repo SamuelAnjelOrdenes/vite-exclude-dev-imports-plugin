@@ -1,4 +1,4 @@
-import ExcludeDevImportsPlugin from '../src/index';
+import { ExcludeDevImportsPlugin } from '../src/index';
 
 describe('vite-exclude-dev-imports', () => {
   it('should be defined', async () => {
