@@ -2,7 +2,7 @@
   "name": "vite-exclude-dev-imports-plugin",
   "version": "0.1.0",
   "description": "a vite plugin to remove '?dev' imports",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
@@ -14,6 +14,7 @@
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
   },
+  "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SamuelAnjelOrdenes/vite-exclude-dev-imports-plugin.git"
